@@ -1,0 +1,4 @@
+# Problem Set 2 on Git and Text Editors (Nano)
+
+nano mysequences.txt
+
