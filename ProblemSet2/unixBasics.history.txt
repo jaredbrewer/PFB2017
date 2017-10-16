@@ -1,0 +1,51 @@
+    1  ls 
+    4  ls ../
+    5  cd ~
+   10  mkdir problemsets
+   11  cd ~/problemsets
+   12  pwd
+   16  mv ~/Downloads/sequences.nt.fa.txt  ~/problemsets
+   17  wc sequences.nt.fa.txt
+   23  curl -O https://github.com/srobb1/pfb2017/blob/master/files/sequences.nt.fa
+   24  ls
+   26  wc -clmw sequences.nt.fa
+   30  tail sequences.nt.fa.txt
+   31  head sequences.nt.fa.txt
+   32  grep '>' sequences.nt.fa.txt
+   33  mv sequences.nt.fa.txt cancer_genes.fasta
+   34  ls
+   35  mv ~/Downloads/cuffdiff.txt ~/problemsets
+   36  ls
+   37  head cuffdiff.txt
+   44  sort -k10 cuffdiff.txt > sorted.cuffdiff.out
+   45  head sorted.cuffdiff.out
+   49  sort -k10 cuffdiff.txt | head -n 100 > top100.sorted.cuffdiff.out
+   59  sort -k10 cuffdiff.txt | cut -f1 | head -n 100 > differentially.expressed.genes.txt
+   60  curl https://raw.githubusercontent.com/srobb1/pfb2017/master/files/cuffdiff.txt
+   61  sort -k10 cuffdiff.txt | cut -f1 | head -n 100 > differentially.expressed.genes.txt
+   63  sort -k10 cuffdiff.txt | cut -f1 | uniq | head -n 100 > differentially.expressed.genes.txt
+   67  mkdir ~/git
+   68  cd ~/git
+   69  mkdir problemsets
+   70  cd ~/git/problemsets
+   71  git init
+   73  echo "# PFB2017" >> README.md
+   74  git add README.md
+   75  git commit -m "Initial commit"
+   76  git remote add origin https://github.com/jaredbrewer/PFB2017.git
+   77  git push -u origin master
+   78  nano ProblemSet2.txt
+   79  git add *
+   80  git commit -m "Adding previous problem set to a new directory"
+   81  git push
+   82  nano ProblemSet2.txt
+   83  nano mysequences.txt
+   84  cd ~/git/problemsets/ProblemSet2
+   85  mkdir fastas
+   86  cp ~/git/problemsets/ProblemSet1/cancer_genes.fasta ~/git/problemsets/ProblemSet2
+   87  git add all
+   88  git add all *
+   89  git add *
+   90  git commit -m "Completed Problem Set 2 - will save .sh files shortly."
+   91  git push origin master
+   92  history > unixBasics.history.txt
