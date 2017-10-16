@@ -43,8 +43,6 @@
    84  cd ~/git/problemsets/ProblemSet2
    85  mkdir fastas
    86  cp ~/git/problemsets/ProblemSet1/cancer_genes.fasta ~/git/problemsets/ProblemSet2
-   87  git add all
-   88  git add all *
    89  git add *
    90  git commit -m "Completed Problem Set 2 - will save .sh files shortly."
    91  git push origin master
