@@ -1,0 +1,56 @@
+    1  git add *
+    2  nano ProblemSet3.py
+    3  ls
+    4  mv ProblemSet3.py ~/git/problemsets/ProblemSet3/ProblemSet3.py
+    5  cd ~/git/problemsets/
+    6  cd ProblemSet3
+    7  chmod -x ProblemSet3.pty
+    8  chmod -x ProblemSet3.py
+    9  ProblemSet3.py
+   10  ls -l ProblemSet3.py
+   11  chmod +x ProblemSet3.py
+   12  ProblemSet3.py
+   13  chmod
+   14  chmod +x ProblemSet3.py
+   15  ls
+   16  ProblemSet3.py
+   17  python3
+   18  nano ProblemSet3.py
+   19  ls -l ProblemSet3.py
+   20  ProblemSet3.py
+   21  nano ProblemSet3.py 
+   22  ProblemSet3.py 
+   23  ProblemSet3.py
+   24  ProblemSet3.py
+   25  ProblemSet3.py
+   26  ls
+   27  pwd
+   28  chmod +x ProblemSet3.py
+   29  nano ProblemSet3.piy
+   30  nano ProblemSet3.py
+   31  python3 ProblemSet3.py
+   32  nano Retrieve.py
+   33  python3
+   34  chmod +x Retrieve.py
+   35  ls -l Retrieve.py
+   36  Retrieve.py Jared Green Reading Dog
+   37  Retrieve.py
+   38  python3 Retrieve.py Jared Green Reading Dog
+   39  python3 Retrieve.py 'Jared Brewer' Green Reading Dog
+   40  nano Retrieve.py
+   41  nano Retrieve.py
+   42  ./Retrieve.py
+   43  ./Retrieve.py "Jared Brewer" Green Reading Dog
+   44  ./ProblemSet3.py
+   45  nano ProblemSet3.py
+   46  ./ProblemSet3.py
+   47  ./Retrieve.py
+   48  ./Retrieve.py "Jared Brewer" Green Reading Dog
+   49  nano Retrieve.py
+   50  ./Retrieve.py "Jared Brewer" Green Reading Dog
+   51  nano Retrieve.py
+   52  ./Retrieve.py "Jared Brewer" Green Reading Dog
+   53  nano Retrieve.py
+   54  nano ProblemSet3.py
+   55  history
+   56  history > troubleshooting.txt
