@@ -35,3 +35,4 @@ dna_len2 = len(ecori[1])
 frag1_info = print("The first sequence is {} and ends at position {} and is {} nucleotides long.".format(ecori[0], dna_loc, dna_len1))
 frag2_info = print("The second sequence is {} and begins at position {} and is {} nucleotides long.".format(ecori[1], dna_loc, dna_len2))
 
+# The next step will be to sort the output of the ecori object, resort by fragment length, and then explore list copying.
