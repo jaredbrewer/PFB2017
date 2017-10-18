@@ -28,7 +28,7 @@ comp = C2g.upper()
 # We will then output relevant information properly formatted.
 
 ecori = dna.split('GAATTC')
-dna_loc = dna.find("GAATTC")
+dna_loc = dna.find('GAATTC')
 dna_len1 = len(ecori[0])
 dna_len2 = len(ecori[1])
 
