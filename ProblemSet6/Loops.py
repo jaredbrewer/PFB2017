@@ -28,7 +28,41 @@ sum(odd_nums)
 even_nums = [num for num in random_nums if num%2 == 0]
 sum(even_nums)
 
-
-
 # Stopped at question #6
+
+ran = range(1:101)
+
+for num in ran:
+    print(num)
+
+ran = range(sys.argv[1]:sys.argv[2])
+
+for num in ran: 
+    print(num)
+
+#!/usr/bin/env python3                                                          
+import sys
+
+ran = range(int(sys.argv[1]),int(sys.argv[2]))
+
+for num in ran:
+    print(num)
+
+#!/usr/bin/env python3
+import sys
+
+ran = range(int(sys.argv[1]), int(sys.argv[2]))
+
+odds = [num for num in ran if num%2 != 0]
+print(odds)
+
+seqs = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+
+for seq in seqs: 
+    print(seq)
+
+seq_tuple = ([seq for seq in seqs], [len(seq) for seq in seqs])
+
+for seq in seqs:
+    print(len(seq), seq)
 
