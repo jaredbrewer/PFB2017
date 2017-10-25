@@ -30,3 +30,4 @@ for gene in sequences:
     G = value.count("G")
     C = value.count("C")
     nt_count[gene] = {"A": A,"T": T,"G": G,"C": C}
+
